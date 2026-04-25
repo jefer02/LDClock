@@ -1,7 +1,4 @@
 # LDClock
-
-Academic desktop project implemented 100% in Python using Tkinter.
-
 ## Overview
 
 LDClock is an analog clock application with:
