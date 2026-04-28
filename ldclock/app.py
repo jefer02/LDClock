@@ -14,7 +14,7 @@ class MainApp:
 
     def __init__(self, root: tk.Tk) -> None:
         self.root = root
-        self.root.title("LDClock - Reloj Analógico")
+        self.root.title("LDClock")
         self.root.configure(bg="#f4f6fb")
         self.root.geometry("980x560")
         self.root.minsize(900, 540)
@@ -39,7 +39,7 @@ class MainApp:
 
         title_label = tk.Label(
             clock_container,
-            text="Reloj Analógico",
+            text="LDClock",
             font=("Segoe UI", 20, "bold"),
             bg="#f4f6fb",
             fg="#2a334d",
